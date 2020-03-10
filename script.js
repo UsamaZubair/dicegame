@@ -1,5 +1,5 @@
 
-let globalScore = 0;
+let globalScore = [0,0,0];
 let roundScore = 0;
 let activePlayer = 1;
 
@@ -80,7 +80,7 @@ newgame.addEventListener("click",() => {
     document.getElementById('current-2').textContent = 0; 
 
     document.getElementById('namescore-1').textContent = 0;
-    document.getElementById('namescore-2').textContent = 0; 
+    document.getElementById('namescore-2').textContent = 0;
 
 
 })
